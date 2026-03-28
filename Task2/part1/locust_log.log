@@ -1,0 +1,4 @@
+[2026-03-26 17:21:18,128] PC275/INFO/locust.main: Starting Locust 2.43.3
+[2026-03-26 17:21:18,129] PC275/INFO/locust.main: Starting web interface at http://localhost:8089, press enter to open your default browser.
+[2026-03-26 17:21:27,985] PC275/INFO/locust.runners: Ramping to 1000 users at a rate of 1.00 per second
+[2026-03-26 17:59:41,478] PC275/INFO/locust.main: Shutting down (exit code 0)

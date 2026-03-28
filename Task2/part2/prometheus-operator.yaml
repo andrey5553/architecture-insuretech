@@ -1,0 +1,17 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+prometheus:
+  enabled: true
+  additionalServiceMonitors:
+    - name: scaletestapp-prometheus-operator
+      namespace: default
+      labels:
+        serviceMonitorSelector: prometheus
+      endpoints:
+        - port: 8080
+      namespaceSelector:
+        matchNames:
+          - default
+      selector:
+        matchLabels:
+          app: scaletestapp
