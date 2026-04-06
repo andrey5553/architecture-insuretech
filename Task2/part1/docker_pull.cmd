@@ -1,0 +1,2 @@
+rem docker pull ghcr.io/yandex-practicum/scaletestapp:sha256-eff20ae3ae2d596375f9ed6d612a78d149a35a66cd2907ea90d7175ca918c993.sig
+docker pull ghcr.io/yandex-practicum/scaletestapp:latest
